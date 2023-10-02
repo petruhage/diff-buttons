@@ -1,0 +1,341 @@
+
+button {
+  cursor: pointer;
+}
+
+/* header */
+.header {
+  font-family: Roboto;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(57, 100, 241);
+  align-items: center;
+  color: white;
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+.home {
+  font-weight: 700;
+
+}
+
+.search-bar {
+  width: 450px;
+  border: none;
+  border-radius: 50px;
+  padding: 6px 20px;
+  color: rgb(138, 137, 137);
+  font-size: 13px;
+  font-family: Roboto;
+}
+
+.download-button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  font-family: Roboto;
+  padding: 8px 10px;
+  transition: background-color 0.15s;
+}
+
+.download-button:hover {
+  background-color: rgba(58, 132, 241, 1);
+}
+
+.download-button:active {
+  background-color: rgb(149, 186, 241);
+}
+
+
+
+    /* cat suggestions */
+
+    .cat-grid {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
+      margin-top: 50px;
+      font-family: Roboto;
+    }
+
+    .cat-card{
+      width: 200px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      vertical-align: top;
+      margin-right: 15px;
+
+    }
+
+    .card-info{
+      margin-left: 10px;
+    }
+
+    .profile-picture {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 8px;
+      margin-bottom: 5px;
+    }
+
+
+    .mutual-friends {
+      display: grid;
+      grid-template-columns: 35px 1fr;
+      align-items: center;
+      margin-left: 8px;
+
+    }
+
+    .friends-picture {
+      height: 28px;
+      width: 28px;
+      object-fit: cover;
+      border-radius: 14px;
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+
+    .friends-no {
+      color: grey;
+      margin: 0px;
+      font-size: 14px;
+    }
+
+    
+    .add-friend {
+      border: none;
+      background-color: rgb(9, 66, 255);
+      color: white;
+      border-radius: 3px;
+      padding: 8px 15px;
+      transition: background-color 0.15s;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+    }
+
+    
+    .add-friend:hover {
+      background-color: rgb(67, 109, 247);
+    }
+
+    /* notifications */
+
+    .container {
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(200, 200, 200);
+      width: 300px;
+      border-radius: 6px;
+      margin-top: 50px;
+      font-family: Roboto;
+    }
+
+    .row-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2px 24px;
+    }
+
+    .notifications {
+      background-color: rgb(67, 109, 247);
+      color: white;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    /* followers */
+
+
+    .suggestion-card {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: Roboto;
+    }
+
+    .account-picture {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+      margin-right: 15px;
+    }
+    .account-info p {
+      margin: 2px;
+    }
+
+    .account-info {
+      width: 200px;
+    }
+
+    .account-name {
+      font-weight: 700;
+    }
+
+    .nickname {
+      color: rgb(138, 137, 137);
+    }
+
+    .popularity {
+      color: rgb(138, 137, 137);
+      font-size: 14px;
+    }
+
+    
+    .follow-button {
+      background-color: rgb(58, 132, 241);
+      border: none;
+      border-radius: 5px;
+      padding: 10px 14px;
+      color: white;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+  .block {
+    width: 400px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    padding: 10px 15px;
+    font-family: Roboto;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .inboxes {
+    color: rgb(138, 137, 137);
+    font-size: 13px;
+  }
+  
+  .mail-card {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .mail-info {
+    flex: 1;
+  }
+
+  .sender-icon {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+
+  .sender-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sender-name {
+    font-weight: bold;
+  }
+
+  .time {
+    font-size: 14px;
+    color: rgb(138, 137, 137);
+  }
+
+  .mail-title {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .mail-preview {
+    font-size: 15px;
+    color: rgb(138, 137, 137);
+  }
+
+  /* tweet */
+
+  .tweet {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: start ;
+    font-family: Roboto;
+  }
+
+  .user-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+  .tweet-content {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+
+  .tweet-user {
+    display: flex;
+  }
+
+  .username, .user-tag {
+    margin: 0px;
+  }
+
+  .username {
+    font-weight: bolder;
+    margin-right: 5px;
+  }
+
+ .user-tag {
+    color: rgb(102, 102, 102);
+ }
+
+ .tweet-text {
+  margin-top: 3px;
+ }
+
+ .tweet-link {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(206, 199, 199);
+  border-radius: 15px;
+  overflow: hidden;
+ }
+
+ .link-image {
+  background-color: rgb(206, 199, 199);
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+ }
+
+ .link-info {
+  flex: 1;
+ }
+
+ .short-link {
+  margin-bottom: 0;
+  font-weight: bold;
+ }
+
+ .link-title {
+  margin-top: 3px;
+  line-height: 22px;
+ }

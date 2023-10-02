@@ -1,0 +1,136 @@
+button {
+  cursor: pointer;
+}
+
+/* twitter rip-off */
+.twitter {
+  width: 410px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cats {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.tweet-text {
+
+  border: none;
+  font-family: Arial;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 50px;
+  vertical-align: middle;
+}
+
+.tweet-button {
+  background-color: rgb(0, 153, 255);
+  color: white;
+  border: none;
+  padding: 9px 15px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: box-shadow 0.15s;
+
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+/** google rip-off **/
+
+.google{
+  text-align: center;
+}
+
+.google-logo {
+  width: 200px;
+
+}
+.google-search {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0px;
+  border: 1px solid white;
+  border-radius: 50px;
+  height: 40px;
+  width: 500px;
+  padding-left: 20px;
+  box-shadow: 0px 0px 10px rgba(96, 96, 96, 0.6);
+  transition: border 0.15s;
+}
+
+.google-search:hover {
+  border: 1px solid grey;
+}
+
+.g-button {
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(219, 219, 219);
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 30px;
+  padding: 10px;
+  margin-right:10px;
+  transition: border 0.15s;
+
+}
+
+.g-button:hover{
+  border: 1px solid grey;
+}
+
+
+/**formular **/
+
+.sign-form {
+  margin-top: 50px;
+  width: 260px;
+}
+
+.fname {
+  margin-bottom: 10px;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.email {
+  width: 226px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 248px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(57, 93, 253);
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.submit-button:hover{
+  background-color: rgb(29, 69, 247);
+}
+
